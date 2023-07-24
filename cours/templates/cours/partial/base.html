@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'cours/css/bootstrap.min.css'%}">
+   <link rel="stylesheet" href="{% static 'cours/css/my_style.css'%}">
+
+
+</head>
+<body>
+
+    {% include 'cours/partial/header.html' %}
+
+    {% block content %}
+
+    {% endblock %}
+
+
+</div>
+
+
+
+<sript src="{% static 'cours/js/bootstrap.bundle.min.js'"></sript>
+</body>
+</html>
